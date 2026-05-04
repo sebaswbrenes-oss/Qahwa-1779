@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Untitled</title>
+    <link rel="stylesheet" href="./style.css">
+
+  </head>
+    
+  <body>
+  <header>
+    <h1>Catálogo Café Qahwa1779</h1>
+    <input type="text" id="search" placeholder="Buscar refrescos y snacks...">
+</header>
+
+<nav>
+    <button onclick="filterCategory('all')">Todos</button>
+    <button onclick="filterCategory('hot')">Calientes</button>
+    <button onclick="filterCategory('cold')">Frías</button>
+    <button onclick="filterCategory('food')">Comida</button>
+    <button onclick="filterCategory('dessert')">Postres</button>
+</nav>
+
+<section class="products" id="productList"></section>
+
+<footer>
+    <p>© 2026 Café Estilo Green. Naturalmente Delicioso.</p>
+</footer>
+    <script  src="./script.js"></script>
+
+  </body>
+  
+</html>
